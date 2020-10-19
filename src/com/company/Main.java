@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        
         PeopleStats peopleStats = new PeopleStats(Paths.get("śćieżka", "do", "pliku"));
         System.out.println(String.format("Liczba osób: %d", peopleStats.count()));
         System.out.println(String.format("Liczba osób z unikalnymi nazwiskami: %d", peopleStats.countUniqueLastNames()));
